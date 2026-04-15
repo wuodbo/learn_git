@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компьютерная мышь</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html">Главная страница</a>
+                </li>
+                <li>
+                    <a href="">Каталог</a>
+                </li>
+                <li>
+                    <a href="">О нас</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-page">
+            <div class="tovar-img-page">
+                <img src="/img/mouse.png" alt="" width="500" height="450">
+            </div>
+            <div class="tovar-info-page">
+                <h1>Компьютерная мышь</h1>
+                <p>Описание</p>
+                <p>Координатное устройство ввода (манипулятор) для управления курсором и взаимодействия с интерфейсом ПК. </p>
+                 <div class="price">
+                    7 000 руб.
+                </div>
+                <ul>
+                    <li>
+                        <p>Оптический светодиодный (LED) — светится снизу, распространенный вариант; лазерный — работает на зеркальных поверхностях.</p>
+                    </li>
+                    <li>
+                        <p>Проводное (USB) или беспроводное (радиоканал 2.4 ГГц или Bluetooth).</p>
+                    </li>
+                </ul>
+                <button id="buyBtn3">Купить</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p align="center">Подвал сайта</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Главная страница</a>
+                </li>
+                <li>
+                    <a href="">Каталог</a>
+                </li>
+                <li>
+                    <a href="">О нас</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+     <script>
+        const btn = document.getElementById('buyBtn3')
+        btn.addEventListener('click', (e)=>{
+            alert('Поздравляем с покупкой!')
+        })
+    </script>
+</body>
+</html>

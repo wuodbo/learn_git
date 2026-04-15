@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наушники</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html">Главная страница</a>
+                </li>
+                <li>
+                    <a href="">Каталог</a>
+                </li>
+                <li>
+                    <a href="">О нас</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-page">
+            <div class="tovar-img-page">
+                <img src="/img/headphones.png" alt="" width="500" height="450">
+            </div>
+            <div class="tovar-info-page">
+                <h1>Наушники</h1>
+                <p>Описание</p>
+                <p>Персональное устройство для прослушивания аудио, состоящее из двух излучателей (динамиков), надеваемых на голову или вставляемых в уши.</p>
+                <div class="price">
+                    22 000 руб.
+                </div>
+                <ul>
+                    <li>
+                        <p>Стабильный звук, не требуют зарядки, подключаются через 3.5 мм, USB-C или Lightning.</p>
+                    </li>
+                    <li>
+                        <p>Свобода движений, требуют зарядки. Популярны TWS (True Wireless) модели. </p>
+                    </li>
+                </ul>
+                <button id="buyBtn2">Купить</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p align="center">Подвал сайта</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Главная страница</a>
+                </li>
+                <li>
+                    <a href="">Каталог</a>
+                </li>
+                <li>
+                    <a href="">О нас</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+     <script>
+        const btn = document.getElementById('buyBtn2')
+        btn.addEventListener('click', (e)=>{
+            alert('Поздравляем с покупкой!')
+        })
+    </script>
+</body>
+</html>
